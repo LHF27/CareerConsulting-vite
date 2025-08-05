@@ -107,7 +107,6 @@
                             </li>
                         </ul>
 
-
                         <div
                             class="tab-content p-5 shadow rounded-panel"
                             id="pills-tabContent"
@@ -358,7 +357,7 @@
                                     <section
                                         class="d-flex gap-4 border-bottom pb-5 mb-5"
                                     >
-                                        <!-- 左側類別名稱 -->
+                                        <!-- 職旅計劃-左側類別名稱 -->
                                         <div class="flex-shrink-0 side-width">
                                             <h2 class="fs-4 mb-3">
                                                 職旅計劃概況
@@ -370,7 +369,7 @@
                                                 >
                                             </p>
                                         </div>
-                                        <!-- 右側表單 -->
+                                        <!-- 職旅計劃-右側表單 -->
                                         <div>
                                             <!-- 職業狀態 -->
                                             <div class="mb-4">
@@ -778,8 +777,10 @@
                                         </div>
                                     </section>
                                     <!-- 職涯規劃 -->
-                                    <section class="d-flex gap-4 border-bottom pb-5 mb-">
-                                        <!-- 左側類別名 -->
+                                    <section
+                                        class="d-flex gap-4 border-bottom pb-5 mb-5"
+                                    >
+                                        <!-- 職涯規劃-左側類別名 -->
                                         <div class="flex-shrink-0 side-width">
                                             <h2 class="fs-4 mb-3">職涯規劃</h2>
                                             <p class="text-secondary">
@@ -789,7 +790,7 @@
                                                 >
                                             </p>
                                         </div>
-                                        <!-- 右側表單 -->
+                                        <!-- 職涯規劃-右側表單 -->
                                         <div>
                                             <!-- 短期職涯目標-->
                                             <div class="mb-4">
@@ -1054,12 +1055,26 @@
                                                 </div>
                                             </div>
                                             <!-- 期望獲得的協助與資源 -->
-                                             <div class="mb-4">
+                                            <div class="mb-4">
                                                 <p class="mb-2">
                                                     期望獲得的協助與資源
                                                 </p>
                                                 <div class="px-2">
-                                                    
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="assist-careerDirectionGuidance"
+                                                            value="assist-option1"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="assist-careerDirectionGuidance"
+                                                            >職涯方向指導</label
+                                                        >
+                                                    </div>
                                                     <div
                                                         class="form-check form-check-inline me-4 mb-2"
                                                     >
@@ -1183,11 +1198,13 @@
                                                 </div>
                                             </div>
                                             <!-- 感興趣的服務方案 -->
-                                             <div>
-                                                <p class="mb-2">感興趣的服務方案</p>
+                                            <div>
+                                                <p class="mb-2">
+                                                    感興趣的服務方案
+                                                </p>
                                                 <div class="px-2">
                                                     <div
-                                                        class="form-check form-check-inline mx-4 mb-2"
+                                                        class="form-check form-check-inline me-4 mb-2"
                                                     >
                                                         <input
                                                             class="form-check-input"
@@ -1232,7 +1249,256 @@
                                                         >
                                                     </div>
                                                 </div>
-                                             </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- 專業技能區塊 -->
+                                    <section
+                                        class="d-flex gap-4 border-bottom pb-5 mb-5"
+                                    >
+                                        <!-- 專業技能-左側類別名 -->
+                                        <div class="flex-shrink-0 side-width">
+                                            <h2 class="fs-4 mb-3">
+                                                專業技能區塊
+                                            </h2>
+                                            <p class="text-secondary">
+                                                欄位皆為選填
+                                            </p>
+                                        </div>
+                                        <!-- 專業技能-右側表單 -->
+                                        <div>
+                                            <!-- 核心專業領域 -->
+                                            <div class="mb-4">
+                                                <p class="mb-2">核心專業領域</p>
+                                                <div class="px-2">
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="coreAreaExpertise-designCreativity"
+                                                            value="coreAreaExpertise-option1"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="coreAreaExpertise-designCreativity"
+                                                            >設計/創意</label
+                                                        >
+                                                    </div>
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="coreAreaExpertise-technologyProgrammingDevelopment"
+                                                            value="coreAreaExpertise-option2"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="coreAreaExpertise-technologyProgrammingDevelopment"
+                                                            >科技/程式開發</label
+                                                        >
+                                                    </div>
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="coreAreaExpertise-MarketingPR"
+                                                            value="coreAreaExpertise-option3"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="coreAreaExpertise-MarketingPR"
+                                                            >行銷/公關案</label
+                                                        >
+                                                    </div>
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="coreAreaExpertise-contentCreationWriting"
+                                                            value="coreAreaExpertise-option3"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="coreAreaExpertise-contentCreationWriting"
+                                                            >內容創作/寫作</label
+                                                        >
+                                                    </div>
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="coreAreaExpertise-consultancyConsultancy"
+                                                            value="coreAreaExpertise-option3"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="coreAreaExpertise-consultancyConsultancy"
+                                                            >顧問/諮詢</label
+                                                        >
+                                                    </div>
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="coreAreaExpertise-businessAdministration"
+                                                            value="coreAreaExpertise-option3"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="coreAreaExpertise-businessAdministration"
+                                                            >商業/管理</label
+                                                        >
+                                                    </div>
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="coreAreaExpertise-financeAccounting"
+                                                            value="coreAreaExpertise-option3"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="coreAreaExpertise-financeAccounting"
+                                                            >財務/會計</label
+                                                        >
+                                                    </div>
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="coreAreaExpertise-educationTraining"
+                                                            value="coreAreaExpertise-option3"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="coreAreaExpertise-educationTraining"
+                                                            >教育/培訓</label
+                                                        >
+                                                    </div>
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="coreAreaExpertise-legalCompliance"
+                                                            value="coreAreaExpertise-option3"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="coreAreaExpertise-legalCompliance"
+                                                            >法律/合規</label
+                                                        >
+                                                    </div>
+                                                    <div
+                                                        class="form-check form-check-inline me-4 mb-2"
+                                                    >
+                                                        <input
+                                                            class="form-check-input"
+                                                            type="checkbox"
+                                                            id="coreAreaExpertise-healthMedical"
+                                                            value="coreAreaExpertise-option3"
+                                                        />
+                                                        <label
+                                                            class="form-check-label"
+                                                            for="coreAreaExpertise-healthMedical"
+                                                            >健康/醫療</label
+                                                        >
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 專業背景和核心競爭力 -->
+                                            <div class="mb-4">
+                                                <div class="form-floating">
+                                                    <textarea
+                                                        class="form-control"
+                                                        placeholder="專業背景和核心競爭力（最多300字）"
+                                                        id="professionalBgAndCore"
+                                                        style="height: 160px"
+                                                        maxlength="300"
+                                                    ></textarea>
+                                                    <label
+                                                        for="professionalBgAndCore"
+                                                        >專業背景和核心競爭力（最多300字）</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- 專業技能 -->
+                                            <div class="mb-4">
+                                                <div class="form-floating">
+                                                    <textarea
+                                                        class="form-control"
+                                                        placeholder="專業技能（最多300字）"
+                                                        id="professionalSkills"
+                                                        style="height: 160px"
+                                                        maxlength="300"
+                                                    ></textarea>
+                                                    <label
+                                                        for="professionalSkills"
+                                                        >專業技能（最多300字）</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- 語文能力 -->
+                                            <div class="mb-4">
+                                                <div class="form-floating">
+                                                    <textarea
+                                                        class="form-control"
+                                                        placeholder="語文能力（最多300字）"
+                                                        id="languageProficiency"
+                                                        style="height: 160px"
+                                                        maxlength="300"
+                                                    ></textarea>
+                                                    <label
+                                                        for="languageProficiency"
+                                                        >語文能力（最多300字）</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- 資格證照 -->
+                                            <div>
+                                                <div class="form-floating">
+                                                    <textarea
+                                                        class="form-control"
+                                                        placeholder="資格證照（最多300字）"
+                                                        id="qualificationCertificate"
+                                                        style="height: 160px"
+                                                        maxlength="300"
+                                                    ></textarea>
+                                                    <label
+                                                        for="qualificationCertificate"
+                                                        >資格證照（最多300字）</label
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- 教育背景 -->
+                                    <section class="d-flex gap-4 pb-5">
+                                        <!--  -->
+                                        <div class="flex-shrink-0 side-width">
+                                            <h2 class="fs-4 mb-3">
+                                                專業技能區塊
+                                            </h2>
+                                            <p class="text-secondary">
+                                                欄位皆為選填
+                                            </p>
                                         </div>
                                     </section>
                                 </form>
