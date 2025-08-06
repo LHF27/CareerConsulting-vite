@@ -1,3 +1,14 @@
+.change-profilePhoto {
+  width: 120px;
+  height: 120px;
+}
+
+.eamil-subtitle {
+  color: #667F99;
+  font-size: 14px;
+}
+
+
 
 .section-padding {
   padding-top: 80px;
@@ -24,4 +35,12 @@
 
 .form-floating {
   min-width: 656px;
+}
+
+.user-password .modal-body .form-floating  {
+  min-width: unset;
+}
+
+.bg-gray {
+  background-color: #F0F3F5;
 }
