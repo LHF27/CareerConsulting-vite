@@ -9,8 +9,8 @@
             rel="stylesheet"
         />
         <title>index</title>
-      <script type="module" crossorigin src="/CareerConsulting-vite/assets/main-B126r77g.js"></script>
-      <link rel="stylesheet" crossorigin href="/CareerConsulting-vite/assets/main-DOzdQ7UC.css">
+      <script type="module" crossorigin src="/CareerConsulting-vite/assets/main-DgtJDt2s.js"></script>
+      <link rel="stylesheet" crossorigin href="/CareerConsulting-vite/assets/main-Bzd9zy1X.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
@@ -1491,7 +1491,7 @@
                                     </section>
                                     <!-- 教育背景 -->
                                     <section class="d-flex gap-4 pb-5">
-                                        <!--  -->
+                                        <!-- 教育背景-左側類別名 -->
                                         <div class="flex-shrink-0 side-width">
                                             <h2 class="fs-4 mb-3">
                                                 專業技能區塊
@@ -1500,7 +1500,62 @@
                                                 欄位皆為選填
                                             </p>
                                         </div>
+                                        <!-- 教育背景-右側表單 -->
+                                        <div>
+                                            <div>
+                                                <div class="form-floating mb-4">
+                                                    <textarea
+                                                        class="form-control"
+                                                        placeholder="學歷背景（最多500字）"
+                                                        id="educationalBackground"
+                                                        style="height: 160px"
+                                                        maxlength="300"
+                                                    ></textarea>
+                                                    <label
+                                                        for="educationalBackground"
+                                                        >學歷背景（最多500字）</label
+                                                    >
+                                                </div>
+                                                <div class="form-floating">
+                                                    <textarea
+                                                        class="form-control"
+                                                        placeholder="專業培訓與工作坊（最多500字）"
+                                                        id="professionalTrainingWorkshops"
+                                                        style="height: 160px"
+                                                        maxlength="300"
+                                                    ></textarea>
+                                                    <label
+                                                        for="professionalTrainingWorkshops"
+                                                        >專業培訓與工作坊（最多500字）</label
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
                                     </section>
+
+                                    <!-- 匯出/儲存更新 -->
+                                    <div class="d-flex justify-content-center">
+                                        <button
+                                            type="button"
+                                            class="btn btn-outline-secondary d-flex align-items-center gap-1"
+                                        >
+                                            匯出 PDF<span
+                                                class="material-icons-outlined"
+                                            >
+                                                chevron_right
+                                            </span>
+                                        </button>
+                                        <button
+                                            type="button"
+                                            class="btn btn-dark d-flex align-items-center"
+                                        >
+                                            儲存更新<span
+                                                class="material-icons-outlined "
+                                            >
+                                                chevron_right
+                                            </span>
+                                        </button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -1509,6 +1564,40 @@
             </div>
         </main>
 
-        <footer class="footer">footer</footer>
+        <footer class="bg-gray  border-top">
+  <div class="container py-5">
+      <div class="row">
+          <div class="col-12 d-flex align-items-center justify-content-between">
+              <ul class="nav">
+                  <li class="footer-nav-item">
+                      <a class="nav-link text-reset py-2 px-4" href="#"
+                          >服務方案</a
+                      >
+                  </li>
+                  <li class="footer-nav-item">
+                      <a class="nav-link text-reset py-2 px-4" href="#"
+                          >關於職旅</a
+                      >
+                  </li>
+                  <li class="footer-nav-item">
+                      <a class="nav-link text-reset py-2 px-4" href="#"
+                          >聯絡我們</a
+                      >
+                  </li>
+                  <li class="footer-nav-item">
+                      <a class="nav-link text-reset py-2 px-4">隱私權政策</a>
+                  </li>
+                  <li class="footer-nav-item">
+                      <a class="nav-link text-reset py-2 px-4">用戶條款</a>
+                  </li>
+              </ul>
+              <p class="copyright">
+                  Copyright © 2025 職旅 workway. All rights reserved.
+              </p>
+          </div>
+      </div>
+  </div>
+</footer>
+
     </body>
 </html>
