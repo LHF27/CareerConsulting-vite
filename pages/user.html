@@ -1463,7 +1463,7 @@
                                     </section>
                                     <!-- 教育背景 -->
                                     <section class="d-flex gap-4 pb-5">
-                                        <!--  -->
+                                        <!-- 教育背景-左側類別名 -->
                                         <div class="flex-shrink-0 side-width">
                                             <h2 class="fs-4 mb-3">
                                                 專業技能區塊
@@ -1472,7 +1472,62 @@
                                                 欄位皆為選填
                                             </p>
                                         </div>
+                                        <!-- 教育背景-右側表單 -->
+                                        <div>
+                                            <div>
+                                                <div class="form-floating mb-4">
+                                                    <textarea
+                                                        class="form-control"
+                                                        placeholder="學歷背景（最多500字）"
+                                                        id="educationalBackground"
+                                                        style="height: 160px"
+                                                        maxlength="300"
+                                                    ></textarea>
+                                                    <label
+                                                        for="educationalBackground"
+                                                        >學歷背景（最多500字）</label
+                                                    >
+                                                </div>
+                                                <div class="form-floating">
+                                                    <textarea
+                                                        class="form-control"
+                                                        placeholder="專業培訓與工作坊（最多500字）"
+                                                        id="professionalTrainingWorkshops"
+                                                        style="height: 160px"
+                                                        maxlength="300"
+                                                    ></textarea>
+                                                    <label
+                                                        for="professionalTrainingWorkshops"
+                                                        >專業培訓與工作坊（最多500字）</label
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
                                     </section>
+
+                                    <!-- 匯出/儲存更新 -->
+                                    <div class="d-flex justify-content-center">
+                                        <button
+                                            type="button"
+                                            class="btn btn-outline-secondary d-flex align-items-center gap-1"
+                                        >
+                                            匯出 PDF<span
+                                                class="material-icons-outlined"
+                                            >
+                                                chevron_right
+                                            </span>
+                                        </button>
+                                        <button
+                                            type="button"
+                                            class="btn btn-dark d-flex align-items-center"
+                                        >
+                                            儲存更新<span
+                                                class="material-icons-outlined "
+                                            >
+                                                chevron_right
+                                            </span>
+                                        </button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
